@@ -43,11 +43,11 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 	
 	4 - $ **gcloud app deploy app.yaml** (to deploy the application)
  
- Choose the region. Suggestion southamerica-east1 (9).
+ 	Choose the region. Suggestion southamerica-east1 (9).
  
- Type y to continue.
+ 	Type y to continue.
  
-**![](https://lh3.googleusercontent.com/qOtwhrQJvsqHOv_tePvgWoevrTMbYOKNB8d5jdy11c7keDUhzllY8IbxnjoXMsR0d9-arYqsWBTvvg9BikDXImT-4n0n7GwQuBGkZCBx3yP-VErBffilvnFEgjQVQVaDUYWs1wQt)**
+	**![](https://lh3.googleusercontent.com/qOtwhrQJvsqHOv_tePvgWoevrTMbYOKNB8d5jdy11c7keDUhzllY8IbxnjoXMsR0d9-arYqsWBTvvg9BikDXImT-4n0n7GwQuBGkZCBx3yP-VErBffilvnFEgjQVQVaDUYWs1wQt)**
 
 **Wait a few minutes….**
 
@@ -58,4 +58,28 @@ When the process finish you will see that.
 **OK, it's done.**
 
 ## Testing
+My url is [https://neoway.appspot.com](https://neoway.appspot.com). You can see the url in the last screen shot. The url role is [https://YOUR-PROJECT/appspot.com](https://your-project/appspot.com).
 
+The request **header** have two parameters:
+
+- Content-type: application/json
+- Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6IiIsInVzZXJuYW1lIjoiIn0.YOyadIOICikZy_0bupJoLDtSWTo2QQA5GKGr-RpIXyQ
+
+**![](https://lh5.googleusercontent.com/y67oEisSkRhnanvUJzFwnxw7WxedE55YvKJEXxCnhE7xiZtqOFh0F-5Eb4fUprRbBB0O6TG4-waJvUmrRazgy4W5RGYLq1W2KNaqO8TKM2MKlEdADGan3Nd3_lF1_1lzX6Q_QM-B)**
+You can test with my urls, i left the database empty. But you don't have permission in my project to check the database. If you send to me your google account, i give permission for the project (send to e-mail evandropp10@gmail.com).
+But you can test with your own url in your own project.
+
+[Postman](https://www.getpostman.com/) software was used, but you can use another similar.
+
+1.  LOAD INITIAL DATA.
+POST csv file in the load url.
+**![](https://lh6.googleusercontent.com/58JxFib61jcsqfQ7aY3ndSGRq8WxOSUGIHfVPVE9en4MECWUnUkTNgq2b3g4fvwCKR76VbTvCerJ3mjgvUtYqgC3U1tY818Q6JtWgfkJOSEcOxZiMTj7TC8DOghX2pBazUfU58xX)**
+Return Status:
+**![](https://lh4.googleusercontent.com/XRAwdmRm2XJ23dzLZXo8zn9vias0N1BL81YTbDkNGSuBBMdPMERV7xMy5LfNIHAFgfUzyrndKhPO4Ti61MhBdoC1YUXnSKFny-oTLdDJZ2QwrbfMWhw7YIPXN31m1U3qZaN5nYFs)**
+2) CHECK DATABASE
+Go to [https://console.cloud.google.com/datastore](https://console.cloud.google.com/datastore) and check the entities on database.
+**![](https://lh4.googleusercontent.com/YXjU_v2AnvCxzZEM-AIzUzZsQ9hwH_ySQhAr3fcJgxmV7ISnPZj4ed5bDQ_tLk4RBnKz4foxXjrSU-rwM-1I_6wsUr7CVlDY9wy-LQZ3VQr8ydchBGuoHwy_FmMJqnXH59hEoOfk)**
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1ODIwOTMxMDhdfQ==
+-->
