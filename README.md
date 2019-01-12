@@ -30,6 +30,7 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 6) Edit the file app.yaml , put your project code (line 20). 
 
 **![](https://lh4.googleusercontent.com/LgjfPdhwgagCIIoFRlS1lq_sbo81luvyVbljjHn2XaAr0-fVgDdwfKxehXzYLzefZ2if2M59NUGzWNREz-fHtm1wGRTg4Lph2wxaOTD58IHIjNRsmF_SK5Ddga7VXyrcusUr5ap1)**
+
 **![](https://lh5.googleusercontent.com/qCbpYJId1dShaL-XMizSgaMoYBPFPqkziKwIRtplfwapMHjBJ9RUPG6-OQg_Ee8KB2823QTG3Hi5bO5DOC-qN9dAVLfJPgCP_uCgAsVI4kvAo_oeZ5vH0_6AYAcUfGPqWkOg-ASb)**
 
 7) The following steps are performed on the terminal with the Google Cloud SDK (gcloud).
