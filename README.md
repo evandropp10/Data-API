@@ -52,6 +52,7 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 **Wait a few minutes….**
 
 When the process finish you will see that.
+
 **![](https://lh4.googleusercontent.com/eksx70j_Mp1XDamOgfLrM3d9_-iLrI4N8M6H6lvxgDeqAMQcU5jrVwGmzRRElpXn5LvgIdnysZDjovDXoNsKejs5s90s-Velg2SpDAAKJTp7P5Z9UlwYeqv7JjpouyAkS0lDZKzr)**
 
 **OK, it's done.**
