@@ -10,7 +10,7 @@ There are three API's:
 
  - To load initial data: https://neoway.appspot.com/load
  - To integrate data: https://neoway.appspot.com/integrate
- - To get data: https://neoway.appspot.com/consult
+ - To get data: https://neoway.appspot.com/consult/{name}/{zip}
  
 
 ## Deploying
@@ -102,5 +102,5 @@ The column Website was populated.
 ![](https://lh6.googleusercontent.com/eZuvl9jCxp6Ophs6tbMEVxUmdIr7TLDSz4RIndWBnpZWsh35HdAZ0ybndERrqWT19kCMessyhx2ajD-woix4N11jCTAwp_Bjea9JchMYkHR0wEzNOZma4wExLxi_RDKS8FPYB1yd)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI4NjM4NDBdfQ==
+eyJoaXN0b3J5IjpbMTcyOTQ1MzcwNl19
 -->
