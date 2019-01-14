@@ -89,7 +89,8 @@ Go to [https://console.cloud.google.com/datastore](https://console.cloud.google.
 
 ![](https://lh4.googleusercontent.com/YXjU_v2AnvCxzZEM-AIzUzZsQ9hwH_ySQhAr3fcJgxmV7ISnPZj4ed5bDQ_tLk4RBnKz4foxXjrSU-rwM-1I_6wsUr7CVlDY9wy-LQZ3VQr8ydchBGuoHwy_FmMJqnXH59hEoOfk)
 
-3) REQUEST INTEGRATE DATA.
+3) REQUEST INTEGRATE DATA
+
 POST csv file in the load url.
 
 ![](https://lh4.googleusercontent.com/kjzXoRmhsiXtgd5DUMeeoMg0p5ESaJuS-7QoCR5UQyfNYn3mPxPUXRqrvUbrNOWh8odp5JUOqjhEKZAVxlqKBS1ff4QBRBC1nhtsvyWOdgU61YIGrG2R97bPCuT1QXDWdRg0mLl2)
@@ -101,5 +102,5 @@ The column Website was populated.
 ![](https://lh6.googleusercontent.com/eZuvl9jCxp6Ophs6tbMEVxUmdIr7TLDSz4RIndWBnpZWsh35HdAZ0ybndERrqWT19kCMessyhx2ajD-woix4N11jCTAwp_Bjea9JchMYkHR0wEzNOZma4wExLxi_RDKS8FPYB1yd)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTk4NjM5MF19
+eyJoaXN0b3J5IjpbLTE1NTI4NjM4NDBdfQ==
 -->
