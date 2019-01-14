@@ -40,7 +40,7 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 
 1) Install [Golang](https://golang.org/doc/install).
 
-2) Create [Google Cloud](http://cloud.google.com) account. Go to GCP and create a new free account, they give $300 and 12 months period to use the service without payment.
+2) Create [Google Cloud](http://cloud.google.com) account. Go to GCP and create a new free account, they give U$ 300 and 12 months period to use the service without payment.
     
 3) In the [console](https://console.cloud.google.com) create a new project.
 
@@ -151,5 +151,5 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzUyNzUwOF19
+eyJoaXN0b3J5IjpbLTM2MTU3NDMzXX0=
 -->
