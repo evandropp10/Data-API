@@ -107,23 +107,19 @@ The column Website was populated.
 Request the Get method in the api [https://neoway.appspot.com/consult/{name}/{zip](https://neoway.appspot.com/consult/%7Bname%7D/%7Bzip)}. It's mandatory to set the parameters name and zip.
 
 The format of the returned object is:
-
+```
 {
-
 	"id":"5195749109268480",
-	
 	"name":"CRICKET WIRELESS AUTHORIZED RETAILER",
-	
 	"zip":"77009",
-	
-	"website":"https://www.cricketwireless.com"
-	
+	"website":"https://www.cricketwireless.com"	
 }
+```
 
 **![](https://lh3.googleusercontent.com/uHDWdmxUXagyVwClrBdtB1m3cVRNVhjbnKfci5tybm_Je4tMWRKa4DIw7eqobolDvMXmK0zgVT0YI8L3hXa8392NEL82c_9SV8nN7YE1lrdsXo-nj_Yn5ruQ2d0Od0R5l2weVszr)**
 
 If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTY5MDIyMl19
+eyJoaXN0b3J5IjpbLTE1MDUzMDg3MDBdfQ==
 -->
