@@ -8,10 +8,28 @@ The APIs are running in the App Engine, and recording the data in Datastore data
 
 There are three API's:
 
- - To load initial data: https://neoway.appspot.com/load
+ - To load data: https://neoway.appspot.com/load
  - To integrate data: https://neoway.appspot.com/integrate
  - To get data: https://neoway.appspot.com/consult/{name}/{zip}
- 
+
+## API Roles
+
+### API Load data
+This api creates new entities with name and zip code in the database.
+**Data format:**
+- Apply upper to the name.
+
+
+### API Integrate data
+This api finds the entity in the database using the name.
+- If find the entity, record the website.
+- If can not find the entity, crate a new company in database.
+**Data format:**
+- Apply upper to the name.
+- Apply lower to the website.
+
+### API Get data
+This api finds the entity in the database using part of the name and zip code. Returns the json object with id, name, zip and website. 
 
 ## Deploying
 
@@ -122,6 +140,7 @@ The format of the returned object is:
 
 If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDc2Mjk2Nl19
+eyJoaXN0b3J5IjpbLTE2Mjk1NTEyODNdfQ==
 -->
