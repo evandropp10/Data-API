@@ -34,20 +34,22 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 **![](https://lh5.googleusercontent.com/qCbpYJId1dShaL-XMizSgaMoYBPFPqkziKwIRtplfwapMHjBJ9RUPG6-OQg_Ee8KB2823QTG3Hi5bO5DOC-qN9dAVLfJPgCP_uCgAsVI4kvAo_oeZ5vH0_6AYAcUfGPqWkOg-ASb)**
 
 7) The following steps are performed on the terminal with the Google Cloud SDK (gcloud).
+```
+$ gcloud auth login (To authorize login in your google account).
+````
+```	
+$ gloud config set project PROJECTCODE (example: gcloud config set project neoway)
+```	
+Navigate to the folder that you downloaded the files, check if you are in the folder that contains the files app.yaml and main.go.
+```	
+$ gcloud app deploy app.yaml (to deploy the application)
+```
+ 	
+Choose the region. Suggestion southamerica-east1 (9).
+ 
+Type y to continue.
 
-	1 - $ **gcloud auth login** (To authorize login in your google account).
-	
-	2 - $ **gloud config set project PROJECTCODE** (example: gcloud config set project neoway)
-	
-	3 - Navigate to the folder that you downloaded the files, check if you are in the folder that contains the files app.yaml and main.go.
-	
-	4 - $ **gcloud app deploy app.yaml** (to deploy the application)
- 
- 	Choose the region. Suggestion southamerica-east1 (9).
- 
- 	Type y to continue.
- 
-	**![](https://lh3.googleusercontent.com/qOtwhrQJvsqHOv_tePvgWoevrTMbYOKNB8d5jdy11c7keDUhzllY8IbxnjoXMsR0d9-arYqsWBTvvg9BikDXImT-4n0n7GwQuBGkZCBx3yP-VErBffilvnFEgjQVQVaDUYWs1wQt)**
+![](https://lh3.googleusercontent.com/qOtwhrQJvsqHOv_tePvgWoevrTMbYOKNB8d5jdy11c7keDUhzllY8IbxnjoXMsR0d9-arYqsWBTvvg9BikDXImT-4n0n7GwQuBGkZCBx3yP-VErBffilvnFEgjQVQVaDUYWs1wQt)
 
 **Wait a few minutes….**
 
@@ -121,5 +123,5 @@ The format of the returned object is:
 If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUzMDg3MDBdfQ==
+eyJoaXN0b3J5IjpbLTkyOTQ4OTA4Ml19
 -->
