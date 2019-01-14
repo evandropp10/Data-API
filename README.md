@@ -46,15 +46,19 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 
 4) Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts).
 
-5) Git source code to GOPATH folder in your pc, into the src folder. The folder structure must be /src/projetos/neoway. Important pay attention to create "projetos" folder.
+5) Git source code to GOPATH folder in your pc, into the src folder. The folder structure must be /src/projetos/neoway. **Important** pay attention to create "projetos" folder.
 
-6) Edit the file app.yaml , put your project code (line 20). 
+6) Get the needed packages, executing the file ```goGet.sh``` into the folder ```neoway```.
+```
+$ ./goGet.sh
+```
+7) Edit the file app.yaml , put your project code (line 20). 
 
 **![](https://lh4.googleusercontent.com/LgjfPdhwgagCIIoFRlS1lq_sbo81luvyVbljjHn2XaAr0-fVgDdwfKxehXzYLzefZ2if2M59NUGzWNREz-fHtm1wGRTg4Lph2wxaOTD58IHIjNRsmF_SK5Ddga7VXyrcusUr5ap1)**
 
 **![](https://lh5.googleusercontent.com/qCbpYJId1dShaL-XMizSgaMoYBPFPqkziKwIRtplfwapMHjBJ9RUPG6-OQg_Ee8KB2823QTG3Hi5bO5DOC-qN9dAVLfJPgCP_uCgAsVI4kvAo_oeZ5vH0_6AYAcUfGPqWkOg-ASb)**
 
-7) The following steps are performed on the terminal with the Google Cloud SDK (gcloud).
+8) Finally the following steps are performed on the terminal with the Google Cloud SDK (gcloud).
 ```
 $ gcloud auth login (To authorize login in your google account).
 ````
@@ -147,5 +151,5 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjAzNzc1OV19
+eyJoaXN0b3J5IjpbMTMyMjc3MjU1NF19
 -->
