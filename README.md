@@ -48,7 +48,7 @@ The application was deployed on Google Cloud Platform. Follow the steps to deplo
 
 5) Git source code to GOPATH folder in your pc, into the src folder. The folder structure must be /src/projetos/neoway. **Important** pay attention to create "projetos" folder.
 
-6) Get the needed packages, executing the file ```goGet.sh``` into the folder ```neoway```.
+6) Get the needed packages, executing the file ```goGet.sh```.
 ```
 $ ./goGet.sh
 ```
@@ -151,5 +151,5 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjc3MjU1NF19
+eyJoaXN0b3J5IjpbMTMyMzUyNzUwOF19
 -->
