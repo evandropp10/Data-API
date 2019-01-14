@@ -94,7 +94,8 @@ You can test with my urls, i left the database empty. But you don't have permiss
 But you can test with your own url in your own project.
 
 [Postman](https://www.getpostman.com/) software was used, but you can use another similar.
-You con import in postman this configuration. Just click in the Import button, choose "Import from link" and paste this link: https://www.getpostman.com/collections/f955c2e0a28cd9589603
+
+You can import the configuration in Postman. Just click in the Import button, choose "Import from link" and paste this link: https://www.getpostman.com/collections/f955c2e0a28cd9589603
 
 1.  LOAD INITIAL DATA
 
@@ -146,5 +147,5 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDAxMDQ3Nl19
+eyJoaXN0b3J5IjpbLTgxMjAzNzc1OV19
 -->
