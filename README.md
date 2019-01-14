@@ -16,6 +16,7 @@ There are three API's:
 
 ### API Load data
 This api creates new entities with name and zip code in the database.
+
 **Data format:**
 - Apply upper to the name.
 
@@ -24,12 +25,14 @@ This api creates new entities with name and zip code in the database.
 This api finds the entity in the database using the name.
 - If find the entity, record the website.
 - If can not find the entity, crate a new company in database.
+
 **Data format:**
 - Apply upper to the name.
 - Apply lower to the website.
 
 ### API Get data
-This api finds the entity in the database using part of the name and zip code. Returns the json object with id, name, zip and website. 
+This api finds the entity in the database using part of the name and zip code. 
+Returns the json object with id, name, zip and website. 
 
 ## Deploying
 
@@ -142,5 +145,5 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk1NTEyODNdfQ==
+eyJoaXN0b3J5IjpbMTYxNTQ2MDk1MV19
 -->
