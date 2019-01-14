@@ -69,7 +69,7 @@ The request **header** have two parameters:
 
 **![](https://lh5.googleusercontent.com/y67oEisSkRhnanvUJzFwnxw7WxedE55YvKJEXxCnhE7xiZtqOFh0F-5Eb4fUprRbBB0O6TG4-waJvUmrRazgy4W5RGYLq1W2KNaqO8TKM2MKlEdADGan3Nd3_lF1_1lzX6Q_QM-B)**
 
-You can test with my urls, i left the database empty. But you don't have permission in my project to check the database. If you send to me your google account, i give permission for the project (send to e-mail evandropp10@gmail.com).
+You can test with my urls, i left the database empty. But you don't have permission to check the database in my project. If you send me your google account, i'll give you access to the project (send to e-mail evandropp10@gmail.com).
 But you can test with your own url in your own project.
 
 [Postman](https://www.getpostman.com/) software was used, but you can use another similar.
@@ -123,5 +123,5 @@ The format of the returned object is:
 If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTQ4OTA4Ml19
+eyJoaXN0b3J5IjpbMTA1MDc2Mjk2Nl19
 -->
