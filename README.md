@@ -77,6 +77,7 @@ But you can test with your own url in your own project.
 POST csv file in the load url.
 
 **![](https://lh6.googleusercontent.com/58JxFib61jcsqfQ7aY3ndSGRq8WxOSUGIHfVPVE9en4MECWUnUkTNgq2b3g4fvwCKR76VbTvCerJ3mjgvUtYqgC3U1tY818Q6JtWgfkJOSEcOxZiMTj7TC8DOghX2pBazUfU58xX)**
+
 Return Status:
 
 ![](https://lh4.googleusercontent.com/XRAwdmRm2XJ23dzLZXo8zn9vias0N1BL81YTbDkNGSuBBMdPMERV7xMy5LfNIHAFgfUzyrndKhPO4Ti61MhBdoC1YUXnSKFny-oTLdDJZ2QwrbfMWhw7YIPXN31m1U3qZaN5nYFs)
@@ -87,7 +88,7 @@ Maybe you'll have to choose the project, and you will see the companies entities
 
 Go to [https://console.cloud.google.com/datastore](https://console.cloud.google.com/datastore) and check the entities on database.
 
-![](https://lh4.googleusercontent.com/YXjU_v2AnvCxzZEM-AIzUzZsQ9hwH_ySQhAr3fcJgxmV7ISnPZj4ed5bDQ_tLk4RBnKz4foxXjrSU-rwM-1I_6wsUr7CVlDY9wy-LQZ3VQr8ydchBGuoHwy_FmMJqnXH59hEoOfk)
+![](https://lh6.googleusercontent.com/rhfQ6WJ6L58NkyybemOaCxl8O07C9GdycPdLFbh0SpjtBjrEzpxk7BaI3bxQ98Qc0VDmpl75AdRGWPpVI6q2n0RnIKmZGtjEJeARsWQGpv0Cm0fhkUK8bq5Z-IUki7NL-YE6PGeY)
 
 3) REQUEST INTEGRATE DATA
 
@@ -99,8 +100,7 @@ POST csv file in the load url.
 
 The column Website was populated.
 
-![](https://lh6.googleusercontent.com/eZuvl9jCxp6Ophs6tbMEVxUmdIr7TLDSz4RIndWBnpZWsh35HdAZ0ybndERrqWT19kCMessyhx2ajD-woix4N11jCTAwp_Bjea9JchMYkHR0wEzNOZma4wExLxi_RDKS8FPYB1yd)**
-
+**![](https://lh3.googleusercontent.com/9XIRJNMDQaG9qZpUe3XagzjKiJfGwS-Kd8ABSMGLCjMdqzoMyxLqs6UYUvxFEqvACDpM8mHZVHzkNeW6-C8hgIyHAr5peJcbE1GEqRcbbYbpGAlvK63c3wsQxXph0GJJ-JseshCw)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTQ1MzcwNl19
+eyJoaXN0b3J5IjpbMTMyNzQyNTc2Nl19
 -->
