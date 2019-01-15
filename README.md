@@ -38,13 +38,13 @@ Returns the json object with id, name, zip and website.
 
 The application was deployed on Google Cloud Platform. Follow the steps to deploy your own application:
 
-1) Install [Golang](https://golang.org/doc/install).
+1) Install [Golang](https://golang.org/doc/install) in your pc.
 
 2) Create [Google Cloud](http://cloud.google.com) account. Go to GCP and create a new free account, they give U$ 300 and 12 months period to use the service without payment.
     
 3) In the [console](https://console.cloud.google.com) create a new project.
 
-4) Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts).
+4) Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts) in your pc.
 
 5) Git source code to GOPATH folder in your pc, into the src folder. The folder structure must be /src/projetos/neoway. **Important** pay attention to create "projetos" folder.
 
@@ -149,7 +149,17 @@ The format of the returned object is:
 
 If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
+## Considerations
+I chose host in the cloud because i believe that it's a more real and market solution.
+Golang, along with Python and Angular, is a language I've been studying since 2015. And I feel comfortable to program with it.
+
+I think that i didn't understand this paragraph well.
+"An id field is non existent on the data source, so you'll have to use the available fields to aggregate the new attribute **website** and store it. If the record doesn't exist, discard it."
+So i give the following treatment to integrate data:
+- If entity exists on database, in this case the entity is modified to add website.
+- If entity don't exists, in this case create a new one. I decided don't discard because i think we are losing data doing this.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTU3NDMzXX0=
+eyJoaXN0b3J5IjpbLTQ1MDk4NjkxOF19
 -->
