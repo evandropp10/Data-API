@@ -50,6 +50,7 @@ func GetCompany(w http.ResponseWriter, req *http.Request) {
 
 	ctx := appengine.NewContext(req)
 
+	// Search in database
 	comp, err := GetCompanyDB(ctx, name, zip)
 	if err != nil {
 		w.Write([]byte("Not found."))
@@ -110,6 +111,7 @@ func LoadCompanies(w http.ResponseWriter, req *http.Request) {
 	var comps [][]string
 	var erro string
 
+	// Data treatment
 	for {
 		// read rows from csv
 		record, err := reader.Read()
@@ -136,6 +138,7 @@ func LoadCompanies(w http.ResponseWriter, req *http.Request) {
 		comps = append(comps, arrCSV)
 	}
 
+	// Load in database
 	errdb := LoadCompaniesDB(ctx, comps)
 	if errdb != nil {
 		erro = errdb.Error()
@@ -193,6 +196,7 @@ func IntegrateCompanies(w http.ResponseWriter, req *http.Request) {
 	var comps [][]string
 	var erro string
 
+	// Data treatment
 	for {
 		// read rows from csv
 		record, err := reader.Read()
@@ -222,6 +226,7 @@ func IntegrateCompanies(w http.ResponseWriter, req *http.Request) {
 
 	}
 
+	// Integrate with database
 	errdb := IntegrateCompaniesDB(ctx, comps)
 	if errdb != nil {
 		erro = errdb.Error()
@@ -269,10 +274,12 @@ func IntegrateCompaniesDB(ctx context.Context, comps [][]string) error {
 
 		// If found, then modify entity, else create new entity
 		if len(keys) > 0 {
-			_, err1 := datastoreClient.Put(ctx, keys[0], comp)
-			if err1 != nil {
-				returnError = errors.New("Cannot Put Entity")
-				return returnError
+			for j := 0; j < len(keys); j++ {
+				_, err1 := datastoreClient.Put(ctx, keys[j], comp)
+				if err1 != nil {
+					returnError = errors.New("Cannot Put Entity")
+					return returnError
+				}
 			}
 		} else {
 			compKey := datastore.IncompleteKey(tipo, nil)
