@@ -154,12 +154,13 @@ I chose host in the cloud because i believe that it's a more real and market sol
 Golang, along with Python and Angular, is a language I've been studying since 2015. And I feel comfortable to program with it.
 
 I think that i didn't understand this paragraph well.
-"An id field is non existent on the data source, so you'll have to use the available fields to aggregate the new attribute **website** and store it. If the record doesn't exist, discard it."
+"An id field is non existent on the data source, so you'll have to use the available fields to aggregate the new attribute website and store it. If the record doesn't exist, discard it."
+
 So i give the following treatment to integrate data:
 - If entity exists on database, in this case the entity is modified to add website.
 - If entity don't exists, in this case create a new one. I decided don't discard because i think we are losing data doing this.
 
 I hope you enjoy!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTY0MzQ5XX0=
+eyJoaXN0b3J5IjpbMTA0MTA4NDc3OV19
 -->
