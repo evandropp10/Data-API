@@ -61,9 +61,9 @@ $ ./goGet.sh
 8) Finally the following steps are performed on the terminal with the Google Cloud SDK (gcloud).
 ```
 $ gcloud auth login (To authorize login in your google account).
-````
+```
 ```	
-$ gloud config set project PROJECTCODE (example: gcloud config set project neoway)
+$ gcloud config set project PROJECTCODE (example: gcloud config set project neoway)
 ```	
 Navigate to the folder that you downloaded the files, check if you are in the folder that contains the files app.yaml and main.go.
 ```	
@@ -164,5 +164,5 @@ So i give the following treatment to integrate data:
 
 I hope you enjoy!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDExMDUyMV19
+eyJoaXN0b3J5IjpbNDk3ODg1MTYyXX0=
 -->
