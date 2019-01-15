@@ -151,7 +151,7 @@ If it does not find in the database, returns not found.
 **![](https://lh5.googleusercontent.com/NEPHcvLNxrH10eT1jezOA1hd2Xp7usybe_7X4MMKAPQpUBXfZg26wnWJFdslj59zxWzGjrKDlEf3tbDXsdpXxUkQ4Oe5FLLb_RATwkhptqHws2eUL1GVkSJjGKrO6egZQa6Qs_Cs)**
 ## Considerations
 I chose host in the cloud because i believe that it's a more real and market solution.
-Golang, along with Python and Angular, is a language I've been studying since 2015. And I feel comfortable to program with it.
+Golang, along with Python and Angular, is a language i've been studying since 2015. And i feel comfortable to program with it.
 
 I think that i didn't understand this paragraph well.
 "An id field is non existent on the data source, so you'll have to use the available fields to aggregate the new attribute website and store it. If the record doesn't exist, discard it."
@@ -164,5 +164,5 @@ So i give the following treatment to integrate data:
 
 I hope you enjoy!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3ODg1MTYyXX0=
+eyJoaXN0b3J5IjpbMjE2NzY1NDE4XX0=
 -->
